@@ -223,12 +223,12 @@ mm.add("(max-width: 820px)",()=>{
     scroll.to(info, {x: screenWidth*-2-16*12, ease: "none"});
     
     
-    window.onresize = () => {
-        console.log("Wating for reload");
-        setTimeout(()=>window.location.reload(),2000);
+    // window.onresize = () => {
+    //     console.log("Wating for reload");
+    //     setTimeout(()=>window.location.reload(),2000);
         
     
-      }
+    //   }
     
 
 
