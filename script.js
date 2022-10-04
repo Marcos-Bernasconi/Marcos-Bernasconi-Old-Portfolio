@@ -57,7 +57,7 @@ let scroll = gsap.timeline({defaults: {
 scrollTrigger:{
 trigger:".secondProject",
 start: "top-=400 center",
-markers:true,
+
 
 }
 
@@ -83,7 +83,7 @@ let scroll2 = gsap.timeline({defaults: {
 scrollTrigger:{
 trigger:".thirdProject",
 start: "top-=400 center",
-markers:true,
+
 
 }
 
@@ -110,7 +110,7 @@ let scroll3 = gsap.timeline({defaults: {
 scrollTrigger:{
 trigger:".aboutSection",
 start: "top-=400 center",
-markers:true,
+
 
 }
 
