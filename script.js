@@ -146,7 +146,7 @@ anchor.addEventListener("click",()=>{
 })
 };
 
-window.onresize=()=>{
-setTimeout(()=>location.reload(),3000);
+// window.onresize=()=>{
+// setTimeout(()=>location.reload(),3000);
   
-};
+// };
