@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Saira+Semi+Condensed&display=swap');
+
+
+
+:root{
+   --background-color: #fffcfc;
+  --text-color: #002c56;  
+  --primary-color: #007af5;
+  --secondary-color: #d4b7fe; 
+ 
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+   
+}
+
+body{
+  
+   overflow-x: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+h1,h2,h3,button{
+
+    color: var(--primary-color);
+    font-weight: normal;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    
+}
+
+.navigationContainer{
+    z-index: 2;
+    width: 80vw;
+    margin-inline: auto;
+    position: fixed;
+    top:1rem;
+    left: 0;
+    right: 0;
+    color: var(--background-color);
+    
+}
+.liContainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+}
+.navigationItem , .mobileItem{
+    list-style-type: none;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+   
+    
+}
+
+.mobileNavigation{
+    width:fit-content;
+    height: fit-content;
+
+    background-color: var(--primary-color);
+    top: 0;
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+
+/* .mobileContainer{
+   
+} */
+
+.mobileItem{
+    font-size: 1.5rem;
+    width: fit-content;
+    
+    margin-left: 1rem;
+    margin-block: 2rem;
+    padding-inline: 1rem;
+}
+
+.mobileItem a{
+    text-decoration: none;
+    color: var(--background-color);
+    
+}
+
+.material-icons-sharp.menu{
+    vertical-align: -0.6rem;
+    cursor: pointer;
+ 
+}
+
+.navigationItem span{
+    font-size: 2.5rem;
+}
+.mainContainer{
+    overflow-x: hidden;
+    width: min(30rem,100%);
+    margin-inline: auto;
+    padding-inline: 1rem;
+    
+}
+
+.heroSection{
+    height: 100vh;
+    
+
+}
+.imageContainer1{
+    position: absolute;
+    top: 0;
+    background-image: url("images/city.jpg");
+    background-repeat: no-repeat;
+    right: 0;
+    width: 100vw;
+    height: 108vh;
+    background-size: cover;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    z-index: -1;
+}
+.textHero{
+margin-block: 5rem;
+   padding-inline: 0.5rem; 
+   padding-block: 3rem; 
+   
+}
+.h1Hero{
+   
+    font-size: 3.5rem;
+    color: var(--background-color);
+ 
+    
+}
+.pHero{
+ font-size: 1.7rem;
+ margin-top: 1rem;
+ color: var(--background-color);
+}
+.ctaButton{
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: solid 2px var(--background-color);
+    border-radius: 100vh;
+    background-color:  var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+   
+}
+
+.infoSection{
+
+    margin-block: 0rem 3rem;
+
+}
+
+.infoSection h2{
+    margin-block: 2.5rem 0.5rem;
+}
+.infoSection p{
+    margin-block: 0.5rem;
+}
+.infoList{
+    margin-block: 2rem;
+}
+
+.infoList > li{
+    list-style-type: disc;
+    margin-left: 2rem;
+    margin-block: 0.2rem;
+}
+
+.arrow{
+    display: none;
+}
+
+
+
+.dataContainer{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-block: 0rem 3rem;
+    
+    
+}
+.arrowContainer{
+    width: fit-content;
+    cursor: pointer;
+}
+
+.h2Data{
+    color: var(--background-color);
+    font-size: 1.5rem;
+
+}
+.cityName{
+    display: inline-block;
+    color: var(--secondary-color);
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+.material-icons-sharp.arrow{
+    
+    font-size: 3rem;
+    vertical-align: -0.5rem;
+}
+
+
+.dataType{
+    margin-block: 1rem;
+}
+
+.small{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+svg rect{
+    fill: var(--secondary-color)
+}
+svg text{
+    text-anchor: end;
+    font-size: 2.2rem;
+    fill: var(--text-color);
+
+}
+.carbonInfo h2{
+    margin-block: 2.5rem 0.5rem;
+}
+.carbonInfo p{
+    margin-block: 0.5rem;
+}
+.footerContainer{
+    display: flex;
+   align-items: center;
+    flex-flow: column wrap; 
+    text-align: center;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    padding: 0.5rem;
+    margin-block: 4.5rem 0rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1.2rem;
+}
+.footerContainer a{
+    color: var(--secondary-color);
+}
+address{
+    margin-block: 1rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+@media screen and (min-width:800px){
+    
+.textHero{
+    margin-block: 13rem;
+    margin-left: 3rem;
+}
+
+.infoSection{
+    margin-top: -7rem;
+}
+
+.material-icons-sharp.menu{
+    font-size: 4rem;
+}
+
+
+.mainContainer{
+   width: min(40rem,100%); 
+}
+
+}
+
+
+@media screen and (min-width:1500px) {
+    
+.imageContainer1{
+    background-position: 0 90%;
+}
+
+.textHero{
+    margin-left: 10rem;
+}
+    .pHero{
+        max-width: 26ch;
+    }
+
+    .mainContainer{
+        width: min(90rem,100%);
+     
+        
+     }
+     
+     p,.dataContainer{
+    width:min(50rem,100%);
+     }
+     .infoSection{
+        overflow-x: hidden;
+        position: relative;
+         height: 1500px;
+     }
+    
+     .arrow{
+        display: block;
+    }
+
+
+     .firstSection{
+        position: relative;
+     }
+
+     .firstSection img{
+        position: absolute;
+        left: 24rem;
+        bottom:-15rem;
+        width: 13rem;
+        height: 13rem;
+        transform: rotateY(180deg) rotate(50deg);
+
+     }
+     .secondSection{
+        position: relative;
+        margin-top: 11rem;
+        margin-left: 36rem;
+       
+     }
+
+     .secondSection img{
+        position: absolute;
+        width: 13rem;
+        height: 13rem;
+        top:12rem;
+        left:-11rem;
+        transform: rotateY(180deg) rotate(110deg);
+
+     }
+
+
+
+
+     .thirdSection{
+        position: relative;
+        margin-top: 12rem;
+        left:6rem;
+     }
+
+.dataSection,.dataContainer{
+    display: inline-block;
+    width: 40rem;
+  
+}
+
+.carbonInfo{
+display: inline-block;
+width:40rem;
+margin-left: 4rem;
+position: absolute;
+   
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height:550px){
+
+    .textHero{
+        margin-block: 0rem;
+    }
+    
+
+    .infoSection{
+        margin-top: 0rem;
+    }
+}

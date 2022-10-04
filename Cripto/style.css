@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:#0e0f10;
+    --text-color:#f5fafc;
+    --primary-color: #7bffc7;
+    --card-color: #242629;
+}
+
+html,body{
+   
+    overflow-x: hidden;
+  
+}
+body{
+
+    font-family: 'Inter', sans-serif;  
+    font-size: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.navigation{
+    
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    width: 80vw;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    padding: 0.5rem;
+    z-index: 2;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navigation li,.mobileNav ul li{
+    list-style-type: none;
+    
+}
+
+#mobile li{
+    background-color: var(--background-color);
+    padding: 0.5rem;
+    
+  
+}
+
+.mobileNav{
+
+    width: min(60vw,15rem);
+    height: min(40vh,25rem);
+    position: fixed;
+    z-index: 3;
+    
+    font-size: 3rem;
+    
+    background-color: var(--card-color);
+    border-bottom-right-radius: 3rem;
+}
+
+.mobileNav ul{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 2rem;
+    
+
+}
+
+
+#desktop{
+    display: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--background-color);
+    
+
+}
+
+.home{
+    margin-right: auto;
+}
+
+.material-symbols-sharp.menu{
+    font-size: 3rem;
+    vertical-align: -1rem;
+    
+}
+
+
+main{
+    width: min(30rem,100%);
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 5.5rem;
+
+    
+}
+h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.textContainer{
+    margin-top: 2rem;
+}
+
+.textContainer h1{
+    max-width: 8ch;
+}
+.textContainer p{
+    max-width: 15ch;
+}
+
+.color{
+    color: var(--primary-color);
+}
+.heroSection{
+    position: relative;
+    margin-top: 5rem;
+}
+
+
+.heroSection p{
+
+    margin-top: 5rem;
+}
+
+.ctaButton{
+    padding: 1rem;
+    font-size: 1.7rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-top: 2rem;
+    border-radius: 100vh;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.world{
+    
+    background-image: url(images/World-light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 50%;
+   z-index: -1;
+    object-fit: cover;
+    
+    
+    
+    
+}
+
+.infoSection{
+    margin-top: 10rem;
+    position: relative;
+}
+.watermark{
+    color: var(--card-color);
+    font-size: 10rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+    top: 5rem;
+  
+}
+
+
+.infoList{
+    overflow-x: hidden;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    gap: 8rem;
+   
+  
+   
+
+}
+
+.infoList div{
+    min-width: 100%;
+    margin-top: 7rem;
+    background-color: var(--card-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.infoList div:first-child{
+    background-color: var(--background-color);
+}
+
+
+.firstInfo span,.gradient{
+    background: rgb(123,255,199);
+    background: -moz-radial-gradient(circle, rgba(123,255,199,1) 0%, rgba(60,116,93,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(123,255,199,1) 0%, rgba(60,116,93,1) 100%);
+    background: radial-gradient(circle, rgba(123,255,199,1) 0%, rgba(60,116,93,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7bffc7",endColorstr="#3c745d",GradientType=1);
+
+background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.secondInfo{
+ 
+    background: rgb(36,38,41);
+    background: -moz-linear-gradient(171deg, rgba(36,38,41,1) 40%, rgba(123,255,199,1) 100%);
+    background: -webkit-linear-gradient(171deg, rgba(36,38,41,1) 40%, rgba(123,255,199,1) 100%);
+    background: linear-gradient(171deg, rgba(36,38,41,1) 40%, rgba(123,255,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#242629",endColorstr="#7bffc7",GradientType=1);
+
+    
+}
+
+.thirdInfo{
+    background: rgb(36,38,41);
+    background: -moz-linear-gradient(9deg, rgba(36,38,41,1) 26%, rgba(123,255,199,1) 85%);
+    background: -webkit-linear-gradient(9deg, rgba(36,38,41,1) 26%, rgba(123,255,199,1) 85%);
+    background: linear-gradient(9deg, rgba(36,38,41,1) 26%, rgba(123,255,199,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#242629",endColorstr="#7bffc7",GradientType=1);
+      
+}
+
+
+
+.infoList div img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.dataSection{
+    margin-top: 10rem;
+    position: relative;
+}
+
+.dataSection .watermark{
+    font-size: 6rem;
+    top: -6rem;
+}
+
+.dataSection p{
+    margin-top: 2rem;
+}
+
+.data{
+    position: relative;
+    max-width: 20rem;
+    margin-top: 10rem;
+    background-color: var(--card-color);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.name{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.data p{
+   margin-top: 1rem;
+  font-size: 2rem;  
+}
+
+.convertion{
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+
+.value{
+    width: fit-content;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 0.5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    padding: 0.5rem;
+
+}
+
+.red{
+    background-color: #ff7b7b;
+}
+
+
+.material-symbols-sharp.arrow{
+    font-size: 3rem;
+    vertical-align: -0.8rem;
+}
+
+.material-symbols-sharp.arrow.next{
+    font-size: 3rem;
+    vertical-align: -0.7rem; 
+    color: var(--primary-color);
+}
+
+.end{
+    margin-top: 10rem;
+}
+
+.end p{
+    margin-top: 2rem;
+}
+
+footer{
+
+    margin-top: 10rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--card-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+address{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+@media screen and (min-width:821px) {
+   html{
+    font-size: 120%;
+    overflow-x: hidden;
+    
+   }
+
+   body{
+    overflow-x: hidden;
+    width:100vw;
+   }
+    main{
+     
+        width: min(50rem,100%);
+       
+    }
+
+    p, h2{
+        max-width: 16ch;
+        
+    }
+    .textContainer{
+       display: inline-block;
+       position: relative;
+    }
+
+   
+
+   
+    .textContainer p{
+        max-width: 22ch;
+    }
+
+    .ctaButton{
+        max-width: 22ch;
+      
+       
+    }
+   
+
+
+    .world{
+        
+        
+      
+        width: 100%;
+        height: 100%;
+        left: 60%;
+        top: 0;
+        object-fit: cover;
+        
+        
+        
+        
+    }
+
+    .infoSection {
+        margin-top: 10rem;
+    }
+
+    .h2Info,.dataText p,.dataText h2,.end p,.end h2{
+        
+       
+        margin-left: 25%;
+      
+    }
+    .infoList{
+  
+        width: 100%;
+    }
+
+    .infoList div img{
+        width: 50%;
+    }
+
+    .firstInfo,.secondInfo,.thirdInfo{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+
+    .data{
+        max-width: 20rem;
+        margin-inline: auto;
+    }
+
+    footer p{
+        max-width: none;
+        
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    
+#mobile{
+    display: none;
+}
+
+.mobileNav{
+    display: none;
+}
+
+#desktop{
+    display: flex;
+}
+
+.world{
+    width:130%;
+    height: 130%;
+    left: 70%;
+    top: -15%;
+    
+}
+
+.dataSection{
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+}
+.data{
+ max-width: 30rem;
+   margin-top: 0rem; 
+}
+
+
+.dataSection .watermark{
+    left: 0;
+    top: -15%;
+    margin: 0;
+}
+
+.dataSection p,.dataSection h2{
+    max-width: 20ch;
+    margin-left:0;
+    
+}
+}

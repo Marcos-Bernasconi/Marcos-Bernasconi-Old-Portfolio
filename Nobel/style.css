@@ -1,0 +1,366 @@
+/* Colors |   background: #f7f9fb  primary: #724546  secondary: #3e6446
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--secondary-color);
+}
+
+:root{
+    /* --bg-color: #f7f9fb;
+    --primary-color: #3e6446;
+    --secondary-color: #724546;
+    --card-color: hsl(359, 25%, 93%);
+    --tertiary-color: hsl(359, 25%, 66%); */
+    --bg-color: hsl(280, 27%, 98%);
+    --primary-color: hsl(207, 67%, 44%);
+    --secondary-color: hsl(209, 36%, 17%);
+    --card-color: hsl(207, 67%, 94%);
+    --tertiary-color: hsl(207, 67%, 84%);
+}
+
+h1,h2,h3,button,.resultAwardYear,.resultMotivation,.navigation li{
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+}
+html,body{
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    
+}
+body{
+
+    background-color: var(--bg-color);
+     
+}
+.navigationContainer{
+    
+    width: 80vw;
+    margin-inline: auto;
+    padding-inline: 0.5rem;
+    background-color: var(--bg-color);
+    border-bottom-right-radius: 1rem;
+}
+.navigation{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding-block: 1rem;
+   
+  
+}
+
+.navigation li{
+    list-style-type: none;
+    color: var(--secondary-color);
+    
+    
+}
+
+.navigation li a{
+   text-decoration: none; 
+}
+
+.navigation > li:first-child{
+    margin-right: auto;
+}
+
+.mainContainer{
+    width: min(30rem,100vw);
+    margin-inline:auto;
+    padding-inline: 1rem;
+}
+
+.articleMain{
+    font-size: 1.5rem;
+}
+
+.h1Main{
+   
+    font-size: 3rem;
+    font-weight: normal;
+    margin-block: 3rem 3rem;
+      
+}
+
+
+
+q:before, q:after {
+    content: none;
+}
+
+.quote{
+    display: block;
+    border-left: 1px var(--primary-color) solid;
+    padding-left: 0.5rem;
+    
+    
+}
+
+.author{
+  text-align: right;  
+  font-size: 1.7rem;
+  margin-block: 1rem;
+}
+
+.ctaText{
+    padding-block: 2rem;
+}
+.ctaButton{
+    background-color: var(--bg-color);
+    margin-block: 3rem;
+    padding: 0.75rem;
+    /* border-radius: 100vh; */
+    border: 2px solid var(--primary-color);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.ctaButton a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+.cardContainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+     
+}
+
+.card{
+    position: relative;
+    margin-block: 1rem;
+    padding: 1rem;
+    flex: 1 15rem;
+    background-color: var(--card-color);
+    /* border-bottom: dotted 1px black; */
+    border-radius: 1rem;
+    border-right: solid 3px var(--tertiary-color);
+}
+
+.material-icons-outlined.cardIcon{
+    font-size: 48px;
+    position: absolute;
+    background-color: var(--bg-color);
+    padding: 0.2rem;
+    border-radius: 100vh;
+    right:0;
+    top:-2rem;
+}
+
+.timelineTextContainer{
+    margin-block: 3rem 1rem; 
+}
+
+.timelineContainer{
+margin-block: 3rem 1rem; 
+
+}
+
+.h2Timeline{
+margin-bottom: 1.5rem;
+
+
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    background: var(--tertiary-color);
+    outline: none;
+    touch-action: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100vh;
+    background: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100vh;
+    background: var(--primary-color);
+    cursor: pointer;
+  }
+  .searchContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+  }
+  .material-icons-outlined.searchIcon{
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    vertical-align: -5px;
+    padding: 0.3rem;
+  }
+
+  .searchDate{
+   font-size: 3rem; 
+   color: var(--primary-color);
+  }
+
+  .lessMargin{
+    margin: 1rem;
+  }
+.result{
+    min-height: 40rem;
+}
+  .resultItem{
+    position: relative;
+    background-color: var(--card-color);
+    padding: 2rem 1.5rem  1.5rem  1.5rem;
+    margin-block: 2rem;
+   
+  }
+  .resultAwardYear{
+    position: absolute;
+    background-color: var(--bg-color);
+    right: 0;
+    top: 0;
+    padding: 0.5rem;
+    display: inline-block;
+  }
+
+ .resultName{
+    margin-block: 1rem 0.2rem;
+ }
+.noWrap{
+    white-space: nowrap ; 
+    color: inherit;
+    font-family: inherit; 
+}
+
+.material-icons-outlined.genderIcon,
+.material-icons-outlined.locationIcon  {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    vertical-align:  -3px;
+   
+    }
+
+.resultGender,
+.resultLocation{
+    font-size: 1.1rem;
+    display: inline-block;  
+}
+
+ .resultMotivation{
+    margin-block: 1.2rem;
+    color: var(--primary-color--color);
+    
+}
+
+
+ .resultWiki{
+    font-size: 1.1rem;
+    
+ }
+ .articleFooter{
+    display: block;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1rem;
+    background-color: var(--card-color);
+    text-align: center;
+    font-size: 1.1rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+ }
+ .articleFooter p{
+    margin-inline: auto;
+ }
+  address{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+ }
+.image{
+    display: none;
+    background-image: url("images/peace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: max(30rem,35vw);
+    height: 60vh;
+    position: absolute;
+    
+    border-bottom-left-radius: 10rem;
+    right: 0;
+    z-index: -1;
+    
+
+}
+
+
+ @media screen and (min-width: 900px){
+
+.navigationContainer{
+    width: 50vw;
+}
+.mainContainer{
+    width: 90%;
+    
+
+}
+.quote{
+    max-width: 40ch;
+}
+.author{
+    width: 50%;
+}
+
+.cardContainer{
+    gap: 1rem;
+    padding: 0.5rem;
+    
+}
+p{
+    max-width: 55ch;
+}
+.timelineContainer{
+    max-width: 50rem;
+    margin-inline: auto;
+}
+.result{
+    max-width: 50rem;
+    margin-inline: auto;
+}
+ }
+
+
+
+ @media screen and (min-width: 1200px){
+.image{
+    display: block;
+}
+.author{
+    width: 30%;
+}
+.cardContainer{
+    max-width: 70rem;
+    gap: 2rem;
+    padding: 0.5rem;
+    
+}
+.timelineContainer{
+    max-width: 50rem;
+    margin-inline: auto;
+}
+ }

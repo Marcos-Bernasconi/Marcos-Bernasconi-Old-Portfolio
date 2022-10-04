@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <script src="script.js" defer></script>
+    <title>Pollution</title>
+</head>
+<body>
+
+
+    <nav class="mobileNavigation">
+        <ul class="mobileContainer">
+    <li class="mobileItem" onclick="hide()"><a href="#home">Home</a></li>
+    <li class="mobileItem" onclick="hide()"><a href="#details">Details</a></li>
+    <li class="mobileItem" onclick="hide()"><a href="#statistics">Statistics</a> </li>
+</ul>
+</nav>
+
+
+   <nav class="navigationContainer">
+    <ul class="liContainer">
+        <!-- <li class="navigationItem">Home</li>
+        <li class="navigationItem">Details</li>
+        <li class="navigationItem">Statistics</li> -->
+        <li class="navigationItem">
+             <span class="material-icons-sharp menu" id="hamburger">
+            menu
+            </span>
+        </li>
+    </ul>
+
+  
+   </nav>
+ <main class="mainContainer" id="home">
+    <section class="heroSection">
+        <div class="textHero">
+        <h1 class="h1Hero">Air Pollution</h1>
+        <p class="pHero">Discover what pollution means to our planet and our health.</p>
+       
+        <a href="#details"><button type="button"class="ctaButton">Find out more &rarr;</button></a>
+    </div>
+        <div class="imageContainer1"></div>
+    </section>
+<section class="infoSection">
+<div class="firstSection">
+
+    <h2 id="details">What is Air Pollution?</h2>
+<p>Air pollution can be defined as the presence of toxic chemicals or compounds 
+ in the air, at levels that pose a health risk.</p>
+ <img src="/images/arrow-loop.svg" class="arrow">
+</div>
+<div class="secondSection">
+ <h2>Why should that be a concern?</h2>
+<p>Air pollution is a major public health risk, ranking alongside cancer, 
+    heart disease and obesity. </p>
+    <p>It shortens lives and damages quality of life for many people.</p>
+<img src="/images/Arrow-wiggle.svg" class="arrow">
+</div>
+ 
+<div class="thirdSection">
+    <h2>What are the causes?</h2>
+<p>Air pollution can result from both natural and human actions.
+     Natural events that pollute the air include:
+     
+     <ul class="infoList">
+        <li>volcanic eruptions</li>
+        <li>forest fires</li>
+        <li>wind erosion</li>
+        <li>pollen dispersal</li>
+        <li>natural radioactivity</li>
+       
+     </ul>
+     
+     Most often, it is caused by human activities such as:
+     <ul class="infoList">
+        <li>mining</li>
+        <li>construction</li>
+        <li>transportation</li>
+        <li>industrial work</li>
+        <li>agriculture</li>
+       
+     </ul>
+    
+    </p>
+
+</div>
+
+
+</section>
+<div class="carbonContainer">
+<section class="dataSection" id="statistics">
+<div class="dataContainer">
+    
+<h2 class="h2Data small">Air quality data | Today</h2>
+<div class="arrowContainer">
+<h2 class="cityName">
+    Berlin 
+   </h2>
+   <span class="material-icons-sharp arrow">
+    arrow_forward
+    </span>
+</div>
+<p class="dataType">Carbon Monoxide <span class="small"> (μg/m³)</span></p>
+
+</div>
+
+</section>
+
+
+
+
+<section class="carbonInfo">
+    <div class="firstInfo">
+    <h2>What is Carbon Monoxide?</h2>
+    <p>Carbon Monoxide <span class="small">(CO)</span> is a colorless, odorless gas that can be harmful when inhaled in large amounts.</p>
+     <p>The greatest sources of CO to outdoor air are cars, trucks and other vehicles or machinery that burn fossil fuels.</p>
+    </div>
+    <div class="secondInfo">
+     <h2>Improving Air Quality</h2>
+<p>To improve the quality of air and slow climate warming, change must be done on a national and global level.</p>
+    </div>
+    </section>
+
+</div>
+
+
+<footer class="footerContainer">
+
+    <p>This is just a personal project.  </p>
+<p> All data is provided by 
+    <a href="https://open-meteo.com/" target="_blank">Open-Meteo.com</a> and 
+    <a href="https://confluence.ecmwf.int/display/CKB/CAMS+Regional%3A+European+air+quality+analysis+and+forecast+data+documentation#CAMSRegional:Europeanairqualityanalysisandforecastdatadocumentation-Howtoacknowledge,citeandrefertothedata" target="_blank">
+        CAMS ENSEMBLE data provider</a> | 
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">License</a>
+</p>
+       
+         <address>Developed by: Berna</address>
+
+        
+
+
+
+</footer>
+
+ </main>
+  
+ 
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+ <script src="https://d3js.org/d3.v7.min.js"></script>
+</body>
+</html>
