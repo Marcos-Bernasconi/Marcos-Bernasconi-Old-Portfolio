@@ -1,4 +1,4 @@
-# Pacifism and human rights
+# Crypto
 
 <img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/LandingPage-Crypto-ai-2.png" />
 
