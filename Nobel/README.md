@@ -1,14 +1,22 @@
 # Pacifism and human rights
 
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/LandingPage-ai.png" />
+
 ## Introduction
 
 This website provides information about the Nobel Peace Prize winners. 
 <br>
 The user can find out the reasons that led to the winning of the Nobel Prize 
-<br>
 and has the opportunity to search the year that interests him.
 <br>
 The site was developed with a mobile first approach and with a simple and elegant user interface.
+
+<br>
+<br>
+<br>
+
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/MockupNobel-tablet-phone2.png" />
+
 
 ## Goals
 
@@ -16,6 +24,12 @@ The site was developed with a mobile first approach and with a simple and elegan
 - Create an intuitive interface that is easy to use
 - Use animations to make the use more enjoyable
 - Ensuring that the website is Responsive
+
+
+<br>
+<br>
+<br>
+
 
 ##  Languages and Tools
 
