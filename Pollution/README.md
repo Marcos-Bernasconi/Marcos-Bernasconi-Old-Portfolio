@@ -9,7 +9,7 @@ This website explains what air pollution is and the consequences it brings.
 In addition, the user has the opportunity to see the daily levels of carbon monoxide pollution;
 it is also possible to see the levels of multiple cities.
 <br>
-The website is Responsive and has a different design based on the size of the device
+The website is Responsive and has a different design based on the size of the device.
 
 <br>
 <br>
