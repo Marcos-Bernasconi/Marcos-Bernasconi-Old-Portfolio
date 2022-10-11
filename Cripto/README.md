@@ -8,7 +8,7 @@ This website explains the various benefits and advantages that cryptocurrencies 
 <br>
 The user can see the daily prices of some of the most popular currencies and the percentage change in value.
 <br>
-The website is Responsive and there is a section with horizontal scrolling.
+The website is Responsive and there is a section with horizontal scrolling
 
 <br>
 <br>
