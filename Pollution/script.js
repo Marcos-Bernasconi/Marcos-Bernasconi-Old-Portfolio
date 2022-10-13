@@ -455,7 +455,7 @@ gsap.from(info,{
         trigger: info,
         start:"top-=30 center",
         
-        toggleActions:"play resume none reverse",
+        toggleActions:"play resume none none",
      
         
         
@@ -476,7 +476,7 @@ xPercent:10,duration:0.5,opacity:0,ease:"power3.out",
         trigger: ".dataContainer",
         start:"top-=50 center",
         end:"center center",
-        toggleActions:"play resume none reverse",
+        toggleActions:"play resume none none",
       
      
         
@@ -495,7 +495,7 @@ for(info of infoSection2){
         trigger: info,
         start:"top-=250 center",
         
-        toggleActions:"play resume none reverse",
+        toggleActions:"play resume none none",
      
         
         
