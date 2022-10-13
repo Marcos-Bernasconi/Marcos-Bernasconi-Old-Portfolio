@@ -156,7 +156,7 @@ if(counter==7){
 
   
   
-        ScrollTrigger.refresh();
+      //  ScrollTrigger.refresh();
   
   
   
