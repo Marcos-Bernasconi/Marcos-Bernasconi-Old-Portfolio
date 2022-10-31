@@ -2,7 +2,7 @@
 
 # 🏳‍🌈 Pacifism and human rights
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/LandingPage-ai.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-ai.png" />
 
 ## Introduction
 
@@ -17,7 +17,7 @@ The site was developed with a mobile first approach and with a simple and elegan
 <br>
 <br>
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/MockupNobel-tablet-phone2.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/MockupNobel-tablet-phone2.png" />
 
 
 ## Goals
@@ -50,7 +50,7 @@ The site was developed with a mobile first approach and with a simple and elegan
 
 # 🌎 Air Pollution
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/LandingPage-Pollution.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-Pollution.png" />
 
 ## Introduction
 
@@ -65,7 +65,7 @@ The website is Responsive and has a different design based on the size of the de
 <br>
 <br>
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/phone-mockup2.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/phone-mockup2.png" />
 
 
 ## Goals
@@ -102,7 +102,7 @@ The website is Responsive and has a different design based on the size of the de
 
 # 💸 Crypto
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/LandingPage-Crypto-ai-2.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-Crypto-ai-2.png" />
 
 ## Introduction
 
@@ -117,7 +117,7 @@ The website is Responsive and there is a section with horizontal scrolling.
 <br>
 <br>
 
-<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi.github.io/blob/main/images/Crypto-Etherium-green.png" />
+<img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/Crypto-Etherium-green.png" />
 
 
 ## Goals
