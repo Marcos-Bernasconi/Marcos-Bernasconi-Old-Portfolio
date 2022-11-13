@@ -4,7 +4,7 @@
 
 <img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-ai.png" />
 
-## Introduction 
+## Introduction
 
 This website provides information about the Nobel Peace Prize winners.
 <br>
