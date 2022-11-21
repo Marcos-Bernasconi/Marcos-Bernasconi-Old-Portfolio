@@ -1,6 +1,6 @@
 # Projects✨
 
-# 🏳‍🌈 Pacifism and human rights 
+# 🏳‍🌈 Pacifism and human rights
 
 <img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-ai.png" />
 
