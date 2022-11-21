@@ -1,12 +1,12 @@
 # Projects✨
 
-# 🏳‍🌈 Pacifism and human rights 
+# 🏳‍🌈 Pacifism and human rights  
 
 <img width = "40%" align="right" alt="PIC" height="40%" src="https://github.com/Marcos-Bernasconi/Marcos-Bernasconi-Old-Portfolio/blob/main/images/LandingPage-ai.png" />
 
 ## Introduction
 
-This website provides information about the Nobel Peace Prize winners.
+This website provides information about the Nobel Peace Prize winners. 
 <br>
 The user can find out the reasons that led to the winning of the Nobel Prize
 and has the opportunity to search the year that interests him.
