@@ -9,7 +9,7 @@
 This website provides information about the Nobel Peace Prize winners.
 <br>
 The user can find out the reasons that led to the winning of the Nobel Prize
-and has the opportunity to search the year that interests him.
+and has the opportunity to search the year that interests him. 
 <br>
 The site was developed with a mobile first approach and with a simple and elegant user interface.
 
